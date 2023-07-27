@@ -17,7 +17,7 @@ RUN mkdir /www && \
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
-COPY . .
+COPY sub/. .
 
 EXPOSE 80
 
