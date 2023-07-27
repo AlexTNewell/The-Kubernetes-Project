@@ -17,5 +17,7 @@ RUN mkdir /www && \
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
+EXPOSE 80
+
 # Start Nginx in the background with the "daemon off;" option
 CMD ["nginx", "-g", "daemon off;"]
