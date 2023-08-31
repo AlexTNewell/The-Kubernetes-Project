@@ -1,4 +1,13 @@
-# Alexander Newell Tech Test 
+# Three Microservices Deployed with Kubernetes
 
+## Background
+The purpose of this project is to demonstrate my proficiency with Kubernetes. It was built as part of the "Docker & Kubernetes: The Practical Guide" course taught my Maximilian Schwarzmüller, available on Udemy. 
 
-docker run -d -p 80:80 -v /home/ec2-user/possible-solution/main/sub:/www anewellcloud/possible-solution:latest
+## Tech
+- Docker
+- Kubernetes
+- Managing Data & Volumes
+- Networking
+- Self Managed Deployments
+- EKS (as well)
+- MongoDB
